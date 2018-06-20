@@ -24,7 +24,7 @@ import java.util.Map;
 public class test {
     public static void main(String[] args) {
         try{
-            //Runtime.getRuntime().exec("cmd.exe /C start acrord32 /P /h " + "newPdf/20180601161805.pdf");
+            Runtime.getRuntime().exec("cmd.exe /C start acrord32 /P /h " + "newPdf/20180601161805.pdf");
             //Runtime.getRuntime().exec("cmd.exe /C \"c:\\Program Files\\Ghostgum\\gsview\\gsprint\" -printer " + PrintServiceLookup.lookupDefaultPrintService().getName() + "newPdf/20180601161805.pdf");
             //return true;
             String templatePath = "pdfTemplate/template1.pdf";
