@@ -5,13 +5,8 @@ import com.itextpdf.text.Rectangle;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.junxun.pdf.PDFTableDto;
 import com.junxun.pdf.PDFTemplateExport;
-import com.sap.mw.jco.JCO;
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.rendering.PDFRenderer;
-import org.apache.pdfbox.tools.PDFBox;
 
 import javax.imageio.ImageIO;
-import javax.print.PrintServiceLookup;
 import javax.swing.*;
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
