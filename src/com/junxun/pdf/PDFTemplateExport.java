@@ -26,7 +26,7 @@ public class PDFTemplateExport {
     //模板路径
     private String templatePdfPath;
     //字体名称
-    private String fontName = "simsun.ttc,0";
+    private String fontName = "simsun.ttc,1";
 
     public void setTemplatePdfPath(String templatePdfPath) {
         this.templatePdfPath = templatePdfPath;
