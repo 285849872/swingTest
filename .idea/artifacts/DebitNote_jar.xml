@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact name="DebitNote:jar">
+    <output-path>$PROJECT_DIR$/../SwingTest1/out/artifacts/DebitNote_jar</output-path>
+    <root id="root">
+      <element id="archive" name="DebitNote.jar">
+        <element id="module-output" name="DebitNote" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/../sapjco部署/sapjco32/sapjco.jar" />
+      <element id="file-copy" path="$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" />
+      <element id="file-copy" path="$USER_HOME$/.m2/repository/com/itextpdf/itext-asian/5.2.0/itext-asian-5.2.0.jar" />
+      <element id="file-copy" path="$USER_HOME$/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar" />
+      <element id="file-copy" path="$USER_HOME$/.m2/repository/com/itextpdf/itextpdf/5.5.10/itextpdf-5.5.10.jar" />
+      <element id="library" level="project" name="pdfbox-app-2.0.9" />
+    </root>
+  </artifact>
+</component>

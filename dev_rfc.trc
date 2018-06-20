@@ -1,0 +1,523 @@
+
+**** ERROR file opened at 20180522 162827 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:11148 Error in program 'java': ======> Name or password is incorrect. Please re-enter
+T:11148 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180522 162954 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:11148 Error in program 'java': ======>      Make an entry in all required fields                                            
+T:11148 Error in program 'java': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:11148 Error in program 'java': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180522 164513 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5780 Error in program 'java': ======>      Make an entry in all required fields                                            
+T:5780 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:5780 Error in program 'java': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180522 165051 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3896 Error in program 'java': ======>      Make an entry in all required fields                                            
+T:3896 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:3896 Error in program 'java': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180522 170106 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:10072 Error in program 'java': ======>      Make an entry in all required fields                                            
+T:10072 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:10072 Error in program 'java': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180522 172243 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:12372 Error in program 'java': ======>      Make an entry in all required fields                                            
+T:12372 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:12372 Error in program 'java': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180523 110244 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5648 Error in program 'java': ======>      Make an entry in all required fields                                            
+T:5648 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:5648 Error in program 'java': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180523 180324 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:12532 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Wed May 23 18:03:24 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+>TS> Wed May 23 18:04:01 2018
+T:12532 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Wed May 23 18:04:01 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8707
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+**** ERROR file opened at 20180523 183803 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:6316 Error in program 'java': ======>      Make an entry in all required fields                                            
+T:6316 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:6316 Error in program 'java': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Wed May 23 18:38:05 2018
+T:6316 Error in program 'java': ======>      Make an entry in all required fields                                            
+T:6316 Error in program 'java': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:6316 Error in program 'java': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180524 134754 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:1276 Error in program 'java': ======> CPIC-CALL: 'CMRCV'
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner broken
+
+TIME        Thu May 24 13:47:54 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -6
+MODULE      ninti.c
+LINE        789
+DETAIL      NiPRead (172.24.140.160/3300, hdl 1)
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+T:1276 Error in program 'java': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1636
+T:1276 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:1276 Error in program 'java': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+>TS> Thu May 24 13:48:25 2018
+T:1276 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Thu May 24 13:48:25 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+
+**** ERROR file opened at 20180524 134924 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:1276 Error in program 'java': ======> CPIC-CALL: 'CMRCV'
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner broken
+
+TIME        Thu May 24 13:49:24 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -6
+MODULE      ninti.c
+LINE        789
+DETAIL      NiPRead (172.24.140.160/3300, hdl 1)
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     7
+
+T:1276 Error in program 'java': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1636
+T:1276 Error in program 'java': <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:1276 Error in program 'java': <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180524 165105 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:100 Error in program 'java': ======>      Enter date in the format ____.__.__                                             
+T:100 Error in program 'java': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:100 Error in program 'java': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180524 165231 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:100 Error in program 'java': ======>      Entry too long (please enter in the format ____.__.__)                          
+T:100 Error in program 'java': <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:100 Error in program 'java': <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180524 180853 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5220 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Thu May 24 18:08:53 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20180525 104534 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:12844 Error in program 'java': ======> CPIC-CALL: 'CMRCV'
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner broken
+
+TIME        Fri May 25 10:45:34 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -6
+MODULE      ninti.c
+LINE        789
+DETAIL      NiPRead (172.24.140.160/3300, hdl 1)
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+T:12844 Error in program 'java': Error RFCIO_ERROR_MESSAGE in abrfcio.c : 1636
+T:12844 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+T:12844 Error in program 'java': <* RfcCallReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180529 181611 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:184 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner broken
+
+TIME        Tue May 29 18:16:11 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -6
+MODULE      ninti.c
+LINE        789
+DETAIL      NiPRead (172.24.140.160/3300, hdl 1)
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+
+**** ERROR file opened at 20180529 181643 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:184 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Tue May 29 18:16:43 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+
+**** ERROR file opened at 20180529 181740 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:184 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Tue May 29 18:17:40 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8707
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     5
+
+
+**** ERROR file opened at 20180529 181807 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:184 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Tue May 29 18:18:07 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8707
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     6
+
+>TS> Tue May 29 18:18:42 2018
+T:184 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Tue May 29 18:18:42 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8707
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     7
+
+
+**** ERROR file opened at 20180529 181921 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:184 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Tue May 29 18:19:21 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8707
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     8
+
+
+**** ERROR file opened at 20180530 131626 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:7972 Error in program 'DebitNote': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Wed May 30 13:16:26 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20180601 105315 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:10216 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Fri Jun 01 10:53:15 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20180601 112554 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5452 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Fri Jun 01 11:25:54 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20180601 112638 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5452 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Fri Jun 01 11:26:38 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8707
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+**** ERROR file opened at 20180601 120443 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:10120 Error in program 'java': ======> Name or password is incorrect. Please re-enter
+T:10120 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180601 120506 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3824 Error in program 'java': ======> Name or password is incorrect. Please re-enter
+T:3824 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180607 141614 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3532 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.19.10.25, GWSERV=sapgw00, ASHOST=172.19.10.25, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.19.10.25, service 3300)
+
+TIME        Thu Jun 07 14:16:14 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+
+**** ERROR file opened at 20180607 141654 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3532 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.19.10.25, GWSERV=sapgw00, ASHOST=172.19.10.25, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.19.10.25, service 3300)
+
+TIME        Thu Jun 07 14:16:54 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8707
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     2
+
+>TS> Thu Jun 07 14:17:03 2018
+T:3532 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.19.10.25, GWSERV=sapgw00, ASHOST=172.19.10.25, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.19.10.25, service 3300)
+
+TIME        Thu Jun 07 14:17:03 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8707
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     3
+
+
+**** ERROR file opened at 20180612 154316 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:1692 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=172.24.140.160, GWSERV=sapgw00, ASHOST=172.24.140.160, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 172.24.140.160, service 3300)
+
+TIME        Tue Jun 12 15:43:16 2018
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20180612 154848 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:9624 Error in program 'java': ======>      Make an entry in all required fields                                            
+T:9624 Error in program 'java': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:9624 Error in program 'java': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180612 154918 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:9624 Error in program 'java': ======>      Make an entry in all required fields                                            
+T:9624 Error in program 'java': <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:9624 Error in program 'java': <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180612 160649 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:9608 Error in program 'java': ======> Name or password is incorrect. Please re-enter
+T:9608 Error in program 'java': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20180612 172447 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:804 Error in program 'java': ======>      Enter a valid value                                                             
+T:804 Error in program 'java': <* RfcReceive [3] : returns 3:RFC_SYS_EXCEPTION
+T:804 Error in program 'java': <* RfcCallReceive [3] : returns 3:RFC_SYS_EXCEPTION
