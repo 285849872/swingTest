@@ -5,6 +5,8 @@ import com.itextpdf.text.Rectangle;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.junxun.pdf.PDFTableDto;
 import com.junxun.pdf.PDFTemplateExport;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.rendering.PDFRenderer;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -34,8 +36,8 @@ public class test {
             te.setTemplatePdfPath(templatePath);
             te.export(
                     new FileOutputStream(file), textFields(), qrCodeFields(), tableFileds());
-            /*PDDocument pdDocument = PDDocument.load(file);
-            PDFRenderer renderer = new PDFRenderer(pdDocument);*/
+            PDDocument pdDocument = PDDocument.load(file);
+            PDFRenderer renderer = new PDFRenderer(pdDocument);
         }catch(Exception e){
             e.printStackTrace();
             //return false;
