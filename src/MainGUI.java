@@ -605,7 +605,7 @@ public class MainGUI extends JFrame {
      */
     private File[] saveToFile(Object[][] playerInfo, ArrayList<JCheckBox> box, String flag, JCO.Table tbNumber) {//该方法用于保存信息到文档
         File[] path = null;
-        File[] pathYuLan = null;
+        //File[] pathYuLan = null;
         try {
             String templatePath = "";
             List<String> strList = new ArrayList<String>();
@@ -629,10 +629,11 @@ public class MainGUI extends JFrame {
                     JCO.Client mConnection = JCO.createClient(s[0], name.toString(), pass.toString(), s[1], s[2], s[3]);
                     mConnection.connect();
                     path = new File[strList.size()];
-                    pathYuLan = new File[strList.size()];
+                    //pathYuLan = new File[strList.size()];
                     for (int i = 0; i < strList.size(); i++) {
                         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-ddHHmmss");
-                        String pdfPath = "newPdf/bigPdf";
+                        //String pdfPath = "newPdf/bigPdf/";
+                        String pdfPath = "newPdf/";
                         String newPdfPath = format.format(new Date());
 
 
@@ -702,13 +703,13 @@ public class MainGUI extends JFrame {
                         te.export(
                                 new FileOutputStream(outputFile), textFields, qrCodeFields, tableFields);
                         //转换为png格式
-                        String imagePath = pdf2Image(pdfPath + stc.getValue("CUSTNO") + "-" + newPdfPath + ".pdf", "newPdf/", 300);
-                        path[i] = new File(pdfPath + stc.getValue("CUSTNO") + "-" + newPdfPath + "/" + stc.getValue("CUSTNO") + "-" + newPdfPath + ".png");
-                        File filex = new File("newPdf/" + stc.getValue("CUSTNO") + "-" + newPdfPath + ".pdf");
-                        filex.createNewFile();
-                        pngToPdf(imagePath, "newPdf/" + stc.getValue("CUSTNO") + "-" + newPdfPath + ".pdf");
+                        //String imagePath = pdf2Image("newPdf/" + stc.getValue("CUSTNO") + "-" + newPdfPath + ".pdf", "newPdf/", 300);
+                        //path[i] = new File(pdfPath + stc.getValue("CUSTNO") + "-" + newPdfPath + "/" + stc.getValue("CUSTNO") + "-" + newPdfPath + ".png");
+                        //File filex = new File("newPdf/" + stc.getValue("CUSTNO") + "-" + newPdfPath + ".pdf");
+                        //filex.createNewFile();
+                        //pngToPdf(imagePath, "newPdf/" + stc.getValue("CUSTNO") + "-" + newPdfPath + ".pdf");
                         path[i] = outputFile;
-                        pathYuLan[i] = filex;
+                        //pathYuLan[i] = filex;
                         //new File(imagePath).delete();
                         //outputFile.delete();
                         //断开连接
@@ -718,11 +719,11 @@ public class MainGUI extends JFrame {
                 br.close();
                 file.close();
                 if(flag.equals("1")){
-                    if(pathYuLan.length > 0){
-                        for (int i = 0; i < pathYuLan.length; i++){
-                            Desktop.getDesktop().open(pathYuLan[0]);
+                    if(path.length > 0){
+                        Desktop.getDesktop().open(path[0]);
+                        /*for (int i = 0; i < pathYuLan.length; i++){
                             path[i].delete();
-                        }
+                        }*/
                     }
                 }
             }
@@ -809,7 +810,7 @@ public class MainGUI extends JFrame {
                     }
                 }
                 String qrCode = "corpid=" + s1 + "&amt=" + stc.getValue("TOTAL_SUM").toString().trim().replace(",", "") +
-                        "&ref1=" + stc.getValue("BILLNO").toString().split("/")[0].trim() + "&ref2="
+                        "&ref1=" + stc.getValue("BILLNO").toString().trim() + "&ref2="
                         + stc.getValue("CUSTNO").toString().trim() + "&ref3=" + stc.getValue("CONTNO").toString().trim() + "&ref4="
                         + gName;
                 //进行AES256 和 base64加密
